@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/formacion")
-@CrossOrigin(origins = "https://ernestgoitar.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CFormacion {
     @Autowired
     SFormacion sFormacion;

@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/hayki")
-@CrossOrigin(origins = "https://ernestgoitar.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CHayki {
     @Autowired
     SHayki sHayki;
