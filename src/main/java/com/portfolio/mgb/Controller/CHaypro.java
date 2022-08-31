@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/haypro")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ernestgoitar.web.app")
 public class CHaypro {
     @Autowired
     SHaypro sHaypro;

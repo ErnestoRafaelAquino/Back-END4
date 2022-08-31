@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/hayca")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ernestgoitar.web.app")
 public class CHayca {
     @Autowired
     SHayca sHayca;
